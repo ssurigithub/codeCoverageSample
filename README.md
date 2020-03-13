@@ -20,9 +20,10 @@ dotnet add ./calculatorLibrary.Tests/calculatorLibrary.Tests.csproj reference ./
 
 # install nuget packages
 
-#add nuget packages for :  <PackageReference Include="coverlet.msbuild" Version="2.8.0"/>
-#                            <PackageReference Include="XunitXml.TestLogger" Version="2.1.26"/>
-#                            <PackageReference Include="Microsoft.CodeCoverage" Version="16.5.0"/>
+#add nuget packages for :  
+<PackageReference Include="coverlet.msbuild" Version="2.8.0"/>
+                            <PackageReference Include="XunitXml.TestLogger" Version="2.1.26"/>
+                            <PackageReference Include="Microsoft.CodeCoverage" Version="16.5.0"/>
 
 
 #install reportgenerator as a global tool - but local to the project
