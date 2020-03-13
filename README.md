@@ -28,3 +28,6 @@ dotnet add ./calculatorLibrary.Tests/calculatorLibrary.Tests.csproj reference ./
 #install reportgenerator as a global tool - but local to the project
 
 dotnet tool install dotnet-reportgenerator-globaltool --tool-path tools
+
+
+# uses coverlet to provide coverage data and convert it into a format that can be used by cobertura.
