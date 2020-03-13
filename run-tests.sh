@@ -6,4 +6,3 @@ sudo ./tools/reportgenerator -reports:./calculatorLibrary.Tests/BuildReports/Cov
 
                  
                  
-#https://gunnarpeipman.com/aspnet-core-code-coverage/
