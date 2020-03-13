@@ -47,7 +47,7 @@ pipeline{
         stage ("cobertura report"){
             steps{
                 echo "publish the code coverage report using the cobertura plugin"
-                cobertura coberturaReportFile: './calculatorLibrary.Tests/BuildReports/Coverage/coverage.cobertura.xml'
+                cobertura coberturaReportFile: 'calculatorLibrary.Tests/BuildReports/Coverage/coverage.cobertura.xml'
                 
             }
         }
